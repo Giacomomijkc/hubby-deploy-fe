@@ -135,7 +135,7 @@ const ProjectUploadForm = () => {
                         </div>
                         <div className='col-md-6'>
                             <Form.Group className="mb-3" controlId="createAuthorForm.ControlInput3">
-                                <Form.Label>Tags (at least with this format web/design/layout)</Form.Label>
+                                <Form.Label>Tags (at least 3 with this format web/design/layout)</Form.Label>
                                 <Form.Control 
                                 className='input'
                                 type="text" 
