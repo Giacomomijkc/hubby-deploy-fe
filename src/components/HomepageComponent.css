@@ -1,0 +1,60 @@
+.homepage-button{
+    width: 400px;
+    border: solid 1px #BEBFFB !important;
+    border-radius: 40px !important;
+    background-color: white !important;
+    color: #BEBFFB !important;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.homepage-button-2{
+    background-color: white !important;
+    border-radius: 20px !important;
+    border-color: #FF2032 !important;
+    width: 400px;
+    color: #FF2032 !important;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.homepage-title{
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.homepage-body{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 815px) {
+    .buttons-container {
+      display: flex;
+      flex-direction: row;
+    }
+    .homepage-button{
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .homepage-button-2{
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 405px) {
+    .homepage-button{
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .homepage-button-2{
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

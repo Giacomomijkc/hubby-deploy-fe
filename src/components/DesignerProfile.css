@@ -1,0 +1,8 @@
+.designer-info-container{
+    border-radius: 100px;
+    border: solid 1px #BEBFFB;
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: flex;
+    padding: 10px;
+}

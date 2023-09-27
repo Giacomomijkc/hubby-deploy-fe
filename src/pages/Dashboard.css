@@ -1,0 +1,93 @@
+.welcome{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.nickname{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #BEBFFB;
+}
+
+.edit-datas-button{
+    background-color: white !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 200px !important;
+    color: #BEBFFB !important;
+}
+
+.show-close-button{
+    background-color: #BEBFFB !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 200px !important;
+    color: white !important;
+}
+
+.buttons-show-container{
+    margin-bottom: 100px;
+}
+
+.button-close-container{
+    margin-bottom: 100px;  
+}
+
+.make-deal-button{
+    background-color: #BEBFFB !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 200px !important;
+    color: white !important;
+}
+
+
+.border-box-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: flex;
+  }
+  
+  .border-box {
+    border: solid 1px #BEBFFB; 
+    padding: 10px; 
+    border-radius: 20px; 
+    flex: 1; 
+  }
+
+@media (max-width: 615px){
+    .border-box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px){
+    .border-box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 399px){
+    .nickname{
+        font-size: 3rem;
+        font-weight: bold;
+        color: #BEBFFB;
+    }
+    .welcome{
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+    .container-button{
+        display: flex;
+        flex-direction: column;
+    }
+}

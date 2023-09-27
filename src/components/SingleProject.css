@@ -1,0 +1,23 @@
+.project-cover{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.author-avatar{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.author-nickname{
+    color: #BEBFFB;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.icons{
+    color: #BEBFFB;
+}

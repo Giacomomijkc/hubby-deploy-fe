@@ -1,0 +1,72 @@
+.edit-deal-button{
+    background-color: #BEBFFB !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 80px !important;
+    color: white !important;
+}
+
+.deal{
+    border: solid 1px #BEBFFB;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.amount{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.info{
+    font-size:small;
+}
+
+.accepted-status{
+    font-size: x-small;
+}
+
+.status-yellow {
+    color: rgba(255, 179, 0, 0.881);
+    border: 1px solid rgba(255, 179, 0, 0.881);
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 5px;
+  }
+  
+  .status-green {
+    color: rgba(32, 128, 0, 0.898);
+    border: 1px solid rgba(32, 128, 0, 0.898);
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 5px;
+  }
+  
+  .status-red {
+    color: rgba(237, 2, 2, 0.95);
+    border: 1px solid rgba(237, 2, 2, 0.95);
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 5px;
+  }
+  
+  .status-purple {
+    color: #BEBFFB;
+    border: 1px solid #BEBFFB;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 5px;
+  }
+
+  .status-blu {
+    color: #171aec;
+    border: 1px solid #171aec;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 5px;
+  }
+  
+  .filter-menu{
+    position: relative;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,38 @@
+.job-offer{
+    border: solid 1px #BEBFFB;
+    border-radius: 20px;
+    margin: 0;
+    height: 300px; 
+    background-image: linear-gradient(to bottom, white 20%, #BEBFFB 80%);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+.offer-title{
+    font-size: medium;
+    font-weight: bold;
+    color: #BEBFFB;
+}
+
+.edit-button{
+    background-color: white !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 80px !important;
+    color: #BEBFFB  !important;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size:medium;
+    font-weight: 700;
+    font-style: italic;
+}
+.edited-data{
+    font-size: x-small;
+}
+
+.info{
+    font-size: small;
+}
+

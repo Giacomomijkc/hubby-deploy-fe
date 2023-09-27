@@ -1,0 +1,68 @@
+.logo{
+    width: 200px;
+    height: 150px;
+}
+
+.navbar{
+    position: sticky !important;
+    background-color: transparent !important;
+}
+
+.links{
+    font-weight: 500 !important;
+    font-size: large !important;
+    text-decoration: none !important;
+    color: black;
+}
+
+.search{
+    width: 170px !important;
+    border-radius: 100px !important;
+    border-color:  #BEBFFB !important;
+}
+
+.nav-buttons{
+    background-color: #BEBFFB !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 80px !important;
+    color: white !important;
+}
+
+.logout-button{
+    background-color: white !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 80px !important;
+    color: #BEBFFB !important;
+}
+
+.user-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+    
+}
+.user-hi{
+    font-size: medium;
+}
+.user-nickname{
+    font-size: medium;
+    font-weight: bold;
+    color: #BEBFFB ;
+}
+
+.user-company{
+    font-size: medium;
+    font-weight: bold;
+    color: #BEBFFB ;
+}
+
+@media (max-width: 991px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }

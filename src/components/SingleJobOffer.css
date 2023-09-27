@@ -1,0 +1,24 @@
+.make-deal-button{
+    background-color: white !important;
+    border-radius: 20px !important;
+    border-color: #BEBFFB !important;
+    width: 150px !important;
+    color: #BEBFFB !important;
+}
+
+.single-job-offer{
+    border: solid 1px #BEBFFB;
+    border-radius: 20px;
+    margin: 0;
+    height: 350px;
+    background-image: linear-gradient(to bottom, white 20%, #BEBFFB 80%);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+.single-job-offer-title{
+    font-size: small;
+    font-weight:500;
+    font-style: italic;
+    color: #BEBFFB;
+}
