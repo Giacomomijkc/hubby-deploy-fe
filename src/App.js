@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, BrowserRouter, Routes, Route} from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import SingUpDesignerPage from './pages/SingUpDesignerPage';
 import SignUpClientPage from './pages/SignUpClientPage';
@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<Homepage/>}/>
         <Route element={<ProtectedRoutes />}>
@@ -70,7 +70,7 @@ const App = () => {
         <Route exact path="/login" element={<LogInPage/>}/>
         <Route path="*" element={<ErrorPage/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }

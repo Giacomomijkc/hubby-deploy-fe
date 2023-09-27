@@ -8,7 +8,7 @@ const apiUrlFetchProjectUpload = `${process.env.REACT_APP_SERVER_BASE_URL}/proje
 
 export const fetchProjects = createAsyncThunk('projects/fetchProjects', async () => {
   try {
-    const response = await axios.get('http://localhost:5050/projects/');
+    const response = await axios.get(apiUrlFetchProjects);
     return response.data.projects;
   } catch (error) {
     console.log(error)
